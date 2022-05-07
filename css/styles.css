@@ -1,0 +1,154 @@
+
+
+body{
+    background: rgb(5, 5, 5) ;
+    color: #fff;
+   
+}
+
+
+header {
+position: absolute;
+    
+top: 1px;
+width: 100%;
+   }
+
+.num{
+ color:#fff;
+font-size: 40px;
+}
+
+  
+ header img {
+     border-radius: 50%;
+     width: 25%;
+    
+   margin-top: 5px;
+     padding: 10px;
+    
+ }
+ 
+ 
+ .galeria .foto {
+background: #fff;
+    width:25%;
+	float: left;
+    color:#fff;
+
+    padding: 25px;
+    height: 350px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.galeria .x .foto a{
+    color:#000;
+    display: block;
+    text-decoration: none;
+    background: #ffab3e;
+    }
+.galeria .foto img {
+	vertical-align: top;
+	width: 300px;
+	opacity: .7;
+ height: 200px;
+  
+}
+
+ .galeria .foto img:hover {
+	opacity: 9;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+   
+}
+
+.formulario{
+    background: #07dddd;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contact-section{
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+.navbar {
+    background: #000;
+}
+#menu a{
+
+color: #fff;
+}
+
+
+.container-fluid .dropdown-menu{
+    background: #28A745;
+
+}
+
+.container-fluid .dropdown-menu :hover{
+    background: #a8ada9;
+
+} 
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    video {
+       width: 100%;
+    
+    }
+.btn{
+    display: none;
+}
+
+.galeria .foto {
+         width:100%;
+    
+     height: 350px;
+   
+    }
+}
+
+ .fotos {
+    margin-bottom: 70px; }
+  .fotos .foto {
+      margin-bottom: 20px; }
+    .fotos .foto .thumb img {
+        border-radius: 3px;
+        width: 100%;
+        vertical-align: top; }
+          .fotos .foto .titulo {
+        margin-top: 70px;
+        margin-bottom: 40px;
+        font-size: 32px;
+        line-height: 32px;
+        font-weight: 300; }
+         .fotos .foto .titulo.azul {
+          color: #4facd3; }
+             .fotos .foto .titulo.naranja {
+          color: #ddb146; }
+         .fotos .foto .parrafo {
+        line-height: 28px; }
+  .fotos .foto .derecha {
+        text-align: right; }
+
+
+
+
+        
+@media only screen and (max-width: 468px) {
+    /* For mobile phones: */
+    header{
+        height: 300px;
+     position: relative;
+        width: 100%;
+       
+}
+
+}
+
+
